@@ -1,0 +1,104 @@
+MIME-Version: 1.0
+Date: Thu, 5 Nov 2026 19:20:27 +0100
+Message-ID: <CAErNqBZ-ZWN4O0R74ZdJ+k_K8jKhc3mGnmv6TOU4uYTkiZ11WQ@mail.gmail.com>
+Subject: Offline 
+From: Patrick Benetti <pbenetti818@gmail.com>
+To: Patrick Benetti <pbenetti818@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000bb9fc9065f8b8c2e"
+
+--000000000000bb9fc9065f8b8c2e
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML>
+<html lang=3D"it">
+<head>
+    <meta charset=3D"UTF-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Grappling Pirates</title>
+    <style>
+        /* Aggiungi qui il tuo stile CSS o lascia il collegamento esterno *=
+/
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #game-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id=3D"game-container">
+        <h1>Grappling Pirates =F0=9F=8F=B4=E2=80=8D=E2=98=A0=EF=B8=8F=F0=9F=
+=A4=BC</h1>
+        <p>L'applicazione =C3=A8 pronta per l'uso offline.</p>
+        <!-- Inserisci qui l'interfaccia, i canvas o i componenti della tua
+app -->
+    </div>
+
+    <!-- SCRIPT PER L'OFFLINE (SERVICE WORKER) -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () =3D> {
+                navigator.serviceWorker.register('service-worker.js')
+                    .then(reg =3D> console.log('Service Worker registrato p=
+er
+Grappling Pirates!', reg))
+                    .catch(err =3D> console.error('Errore di registrazione
+offline:', err));
+            });
+        }
+    </script>
+</body>
+</html>
+
+--000000000000bb9fc9065f8b8c2e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+PGRpdiBkaXI9ImF1dG8iPiZsdDshRE9DVFlQRSBIVE1MJmd0Ozxicj4mbHQ7aHRtbCBsYW5nPSZx
+dW90O2l0JnF1b3Q7Jmd0Ozxicj4mbHQ7aGVhZCZndDs8YnI+wqDCoMKgICZsdDttZXRhIGNoYXJz
+ZXQ9JnF1b3Q7VVRGLTgmcXVvdDsmZ3Q7PGJyPsKgwqDCoCAmbHQ7bWV0YSBuYW1lPSZxdW90O3Zp
+ZXdwb3J0JnF1b3Q7IGNvbnRlbnQ9JnF1b3Q7d2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNj
+YWxlPTEuMCZxdW90OyZndDs8YnI+wqDCoMKgICZsdDt0aXRsZSZndDtHcmFwcGxpbmcgUGlyYXRl
+cyZsdDsvdGl0bGUmZ3Q7PGJyPsKgwqDCoCAmbHQ7c3R5bGUmZ3Q7PGJyPsKgwqDCoMKgwqDCoMKg
+IC8qIEFnZ2l1bmdpIHF1aSBpbCB0dW8gc3RpbGUgQ1NTIG8gbGFzY2lhIGlsIGNvbGxlZ2FtZW50
+byBlc3Rlcm5vICovPGJyPsKgwqDCoMKgwqDCoMKgIGJvZHkgezxicj7CoMKgwqDCoMKgwqDCoMKg
+wqDCoMKgIG1hcmdpbjogMDs8YnI+wqDCoMKgwqDCoMKgwqDCoMKgwqDCoCBwYWRkaW5nOiAwOzxi
+cj7CoMKgwqDCoMKgwqDCoMKgwqDCoMKgIGJhY2tncm91bmQtY29sb3I6ICMxYTFhMWE7PGJyPsKg
+wqDCoMKgwqDCoMKgwqDCoMKgwqAgY29sb3I6ICNmZmZmZmY7PGJyPsKgwqDCoMKgwqDCoMKgwqDC
+oMKgwqAgZm9udC1mYW1pbHk6IEFyaWFsLCBzYW5zLXNlcmlmOzxicj7CoMKgwqDCoMKgwqDCoMKg
+wqDCoMKgIHRleHQtYWxpZ246IGNlbnRlcjs8YnI+wqDCoMKgwqDCoMKgwqAgfTxicj7CoMKgwqDC
+oMKgwqDCoCAjZ2FtZS1jb250YWluZXIgezxicj7CoMKgwqDCoMKgwqDCoMKgwqDCoMKgIG1heC13
+aWR0aDogODAwcHg7PGJyPsKgwqDCoMKgwqDCoMKgwqDCoMKgwqAgbWFyZ2luOiAyMHB4IGF1dG87
+PGJyPsKgwqDCoMKgwqDCoMKgwqDCoMKgwqAgcGFkZGluZzogMTBweDs8YnI+wqDCoMKgwqDCoMKg
+wqAgfTxicj7CoMKgwqAgJmx0Oy9zdHlsZSZndDs8YnI+Jmx0Oy9oZWFkJmd0Ozxicj4mbHQ7Ym9k
+eSZndDs8YnI+PGJyPsKgwqDCoCAmbHQ7ZGl2IGlkPSZxdW90O2dhbWUtY29udGFpbmVyJnF1b3Q7
+Jmd0Ozxicj7CoMKgwqDCoMKgwqDCoCAmbHQ7aDEmZ3Q7R3JhcHBsaW5nIFBpcmF0ZXMg8J+PtOKA
+jeKYoO+4j/CfpLwmbHQ7L2gxJmd0Ozxicj7CoMKgwqDCoMKgwqDCoCAmbHQ7cCZndDtMJiMzOTth
+cHBsaWNhemlvbmUgw6ggcHJvbnRhIHBlciBsJiMzOTt1c28gb2ZmbGluZS4mbHQ7L3AmZ3Q7PGJy
+PsKgwqDCoMKgwqDCoMKgICZsdDshLS0gSW5zZXJpc2NpIHF1aSBsJiMzOTtpbnRlcmZhY2NpYSwg
+aSBjYW52YXMgbyBpIGNvbXBvbmVudGkgZGVsbGEgdHVhIGFwcCAtLSZndDs8YnI+wqDCoMKgICZs
+dDsvZGl2Jmd0Ozxicj48YnI+wqDCoMKgICZsdDshLS0gU0NSSVBUIFBFUiBMJiMzOTtPRkZMSU5F
+IChTRVJWSUNFIFdPUktFUikgLS0mZ3Q7PGJyPsKgwqDCoCAmbHQ7c2NyaXB0Jmd0Ozxicj7CoMKg
+wqDCoMKgwqDCoCBpZiAoJiMzOTtzZXJ2aWNlV29ya2VyJiMzOTsgaW4gbmF2aWdhdG9yKSB7PGJy
+PsKgwqDCoMKgwqDCoMKgwqDCoMKgwqAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJiMzOTtsb2Fk
+JiMzOTssICgpID0mZ3Q7IHs8YnI+wqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgIG5hdmln
+YXRvci5zZXJ2aWNlV29ya2VyLnJlZ2lzdGVyKCYjMzk7c2VydmljZS13b3JrZXIuanMmIzM5Oyk8
+YnI+wqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqAgLnRoZW4ocmVnID0mZ3Q7
+IGNvbnNvbGUubG9nKCYjMzk7U2VydmljZSBXb3JrZXIgcmVnaXN0cmF0byBwZXIgR3JhcHBsaW5n
+IFBpcmF0ZXMhJiMzOTssIHJlZykpPGJyPsKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+wqDCoMKgIC5jYXRjaChlcnIgPSZndDsgY29uc29sZS5lcnJvcigmIzM5O0Vycm9yZSBkaSByZWdp
+c3RyYXppb25lIG9mZmxpbmU6JiMzOTssIGVycikpOzxicj7CoMKgwqDCoMKgwqDCoMKgwqDCoMKg
+IH0pOzxicj7CoMKgwqDCoMKgwqDCoCB9PGJyPsKgwqDCoCAmbHQ7L3NjcmlwdCZndDs8YnI+Jmx0
+Oy9ib2R5Jmd0Ozxicj4mbHQ7L2h0bWwmZ3Q7PGJyPsKgPC9kaXY+DQo=
+--000000000000bb9fc9065f8b8c2e--
